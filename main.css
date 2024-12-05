@@ -80,8 +80,8 @@ aside{
     min-height: 480px; /* Ensures the <aside> element has a minimum height of 480px */
     padding-right: 20px; /* Adds 20px of space on the right side of the <aside> content */
     padding-top: 20px; /* Adds 20px of space at the top of the <aside> content */
-    text-align: justify; /* Aligns the text within the <aside> element to be justified */ }
-      #intro-image {
+    text-align: center; /* Aligns the text within the <aside> element to be justified */ }
+    
        
         Margin: 10px;}
 }
@@ -100,14 +100,14 @@ section{
     border-left: 5px dotted #b2a497;
 
     /* Aligns the text within the section to be justified, ensuring clean, block-style text alignment */
-    text-align: justify;}	
+    text-align: center;}	
 section {  
    
     width: 420px;
     min-height: 480px;
     padding-left: 20px;
     border-left: 5px dotted #b2a497;
-    text-align: justify;
+    text-align: center;
 }
 
 .image-container {
