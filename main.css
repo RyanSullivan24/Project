@@ -74,7 +74,7 @@ nav .active {
 }   
 }
 
-aside{ float: left; /* Positions the <aside> element to the left of the containing element */
+aside{ 
     width: 420px; /* Sets a fixed width of 420px for the <aside> element */
     min-height: 480px; /* Ensures the <aside> element has a minimum height of 480px */
     padding-right: 20px; /* Adds 20px of space on the right side of the <aside> content */
@@ -85,9 +85,7 @@ aside{ float: left; /* Positions the <aside> element to the left of the containi
         Margin: 10px;}
 }
 
-section{  /* Positions the section element to the right side of its containing element, allowing other floated elements (like aside) to align next to it */
-    float: right;
-
+section{  
     /* Sets a fixed width of 420px for the section element */
     width: 420px;
 
