@@ -60,7 +60,7 @@ nav li {
 nav li a {
     display: block; /* Make the links span full width */
     color: #FFFFFF; /* Text color */
-    text-align: left; /* Align text to the left */
+    text-align: center; /* Align text to the left */
     padding: 14px 16px; /* Add padding for spacing */
     text-decoration: none; /* Remove underline */
 }
