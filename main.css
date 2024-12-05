@@ -101,7 +101,7 @@ section{
     /* Aligns the text within the section to be justified, ensuring clean, block-style text alignment */
     text-align: justify;}	
 section {  
-    float: right;
+   
     width: 420px;
     min-height: 480px;
     padding-left: 20px;
