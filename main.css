@@ -1,0 +1,124 @@
+body {	
+    
+    width: 890px;
+
+    
+    margin: 0 auto;
+
+    /* Defines the font properties for the body, including:
+       - Font size: 10pt
+       - Line height: 1.5em (for proper spacing between lines)
+       - Font family: Helvetica, "Helvetica Neue", Arial, sans-serif (fallback fonts in case the first is unavailable) */
+    font: 12pt/1.5em verdana,, futura,Georgia ;
+
+   
+    background: #808080;
+}
+
+header{h1 {	
+font-size: 40px;    
+font-family: verdana, futura, georgia;	
+text-align: center;	
+text-transform: uppercase;	
+color: #000000;
+}
+h3 {		
+font-size: 30px;    
+font-family: verdana, futura, georgia;	text-align: center;	
+color: #000000;	
+}
+h4 {		
+font-size: 20px;    
+font-family: verdana, futura, georgia;	text-align: center;	
+color: #000000;	
+}
+}
+nav {
+    /* Add a fixed width for the navigation area and position it */
+    width: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #D2B48C ; /* Navigation background */
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    /* Remove float and use block layout */
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+nav li a {
+    display: block; /* Make the links span full width */
+    color: #FFFFFF; /* Text color */
+    text-align: left; /* Align text to the left */
+    padding: 14px 16px; /* Add padding for spacing */
+    text-decoration: none; /* Remove underline */
+}
+
+nav li a:hover:not(.active) {
+    background-color: #D3D3D3; /* Change background color on hover */
+}
+
+nav .active {
+    background-color: #4CAF50; /* Active link color */
+
+}   
+}
+
+aside{ float: left; /* Positions the <aside> element to the left of the containing element */
+    width: 420px; /* Sets a fixed width of 420px for the <aside> element */
+    min-height: 480px; /* Ensures the <aside> element has a minimum height of 480px */
+    padding-right: 20px; /* Adds 20px of space on the right side of the <aside> content */
+    padding-top: 20px; /* Adds 20px of space at the top of the <aside> content */
+    text-align: justify; /* Aligns the text within the <aside> element to be justified */ }
+      #intro-image {
+        float: left;
+        Margin: 10px;}
+}
+
+section{  /* Positions the section element to the right side of its containing element, allowing other floated elements (like aside) to align next to it */
+    float: right;
+
+    /* Sets a fixed width of 420px for the section element */
+    width: 420px;
+
+    /* Ensures the section element has a minimum height of 480px */
+    min-height: 480px;
+
+    /* Adds 20px of padding on the left side of the section content */
+    padding-left: 20px;
+
+    /* Adds a 5px dotted border to the left side of the section, with a light brown color (#b2a497) */
+    border-left: 5px dotted #b2a497;
+
+    /* Aligns the text within the section to be justified, ensuring clean, block-style text alignment */
+    text-align: justify;}	
+}
+
+footer{	 /* Clears any floating elements above it, ensuring the footer starts below both floated elements (aside and section) */
+    clear: both;
+
+    /* Sets the fixed width of the footer to 890px, matching the body width for alignment */
+    width: 890px;
+
+    /* Sets the height of the footer to 100px */
+    height: 100px;
+
+    /* Centers the text content within the footer */
+    text-align: center;}
+    #footer-image {
+    /* Sets the height of the footer image to 100px */
+    height: 100px;
+
+    /* Sets the width of the footer image to 100px (fixed the incorrect syntax with an equal sign) */
+    width: 100px;}
+}
